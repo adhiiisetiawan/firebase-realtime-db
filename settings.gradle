@@ -1,0 +1,2 @@
+rootProject.name='FirebaseRealtimeDB'
+include ':app'
