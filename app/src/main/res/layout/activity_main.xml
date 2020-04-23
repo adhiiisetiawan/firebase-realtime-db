@@ -25,7 +25,8 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@id/text_judul"
-        android:hint="@string/input_nim_disini"/>
+        android:hint="@string/input_nim_disini"
+        android:inputType="number"/>
 
     <EditText
         android:id="@+id/edit_text_nama"

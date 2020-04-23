@@ -92,8 +92,8 @@ public class MahsiswaAdapter extends RecyclerView.Adapter<MahsiswaAdapter.Custom
 
         public CustomViewHolder(@NonNull View itemView) {
             super(itemView);
-            textNIM = itemView.findViewById(R.id.edit_text_nim);
-            textNama = itemView.findViewById(R.id.edit_text_nama);
+            textNIM = itemView.findViewById(R.id.edit_nip);
+            textNama = itemView.findViewById(R.id.edit_nama);
             btnUpdate = itemView.findViewById(R.id.btn_update);
             btnDelete = itemView.findViewById(R.id.btn_delete);
             cardView = itemView.findViewById(R.id.cv);
